@@ -145,7 +145,7 @@ scrapy.Spider
            <topics-addons>`. The final settings are available in the
            :meth:`start_requests` method and later. However, crawler created at 
            the time of :meth:`from_crawler` doesn't have most of its components 
-           initialized, hence :meth:`engine_started` signal handler may be a 
+           initialized, hence :func:`engine_started` signal handler may be a 
            better place than :meth:`start_requests` to get a fully initialized 
            crawler.
 
